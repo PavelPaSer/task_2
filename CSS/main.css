@@ -1,0 +1,42 @@
+html{
+    background-color: rgb(206, 207, 231);
+}
+
+h1{
+    color: #4991C3;
+    font-family: 'Sunday';
+}
+
+h2{
+    color: #474747;
+    
+}
+
+img{
+    width: 400px;
+}
+
+.img300{
+    width: 300px;
+}
+
+.bigsize{
+    font-size: 1.5rem;
+    color: rgb(209, 53, 53);
+}
+
+
+@font-face {
+	font-family: 'Sunday';
+	src: url('source/fonts/sunday.eot'); /* IE 9 Compatibility Mode */
+	src: url('source/fonts/sunday.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('source/fonts/sunday.woff2') format('woff2'), /* Super Modern Browsers */
+		url('source/fonts/sunday.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('source/fonts/sunday.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('source/fonts/sunday.svg#sunday') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+ul{
+    list-style-type: square;
+}
